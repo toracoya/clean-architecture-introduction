@@ -1672,7 +1672,7 @@ $controlsArrowAngleActive: 36deg;
 	overflow: auto;
 	box-sizing: border-box;
 	text-align: left;
-	font-family: Helvetica, sans-serif;
+	font-family: helvetica, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif;
 	-webkit-overflow-scrolling: touch;
 
 	.notes-placeholder {
@@ -1761,4 +1761,41 @@ $controlsArrowAngleActive: 36deg;
 
 .zoomed .reveal .roll span:after {
 	visibility: hidden;
+}
+
+
+/*********************************************
+ * CUSTOM
+ *********************************************/
+.reveal h1 {
+    font-size: 1.5em !important;
+}
+
+.reveal h2 {
+    font-size: 1.2em !important;
+}
+
+.reveal h3 {
+    font-size: 1.0em !important;
+}
+
+.reveal section p {
+    font-size: 70% !important;
+}
+
+#left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+#right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:50%;
 }
